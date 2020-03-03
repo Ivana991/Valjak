@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="sr">
+
+<title>Zapremina valjka</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="valjakcss.css" type="text/css">
+</html>
+
+<body>
+    <h1>Računanje zapremine valjka</h1>
+
+    <form id="form" oninput="zvaljka.value=parseInt(rvaljka.value)*parseInt(rvaljka.value)*3.14*parseInt(hvaljka.value)">
+        <div id="div1">
+            <label for="rvaljka" id="poluprecnik">Upišite poluprečnik valjka:</label>
+            <input type="number" id="r" name="rvaljka">
+        </div>
+        <div id="div2">
+            <label for="hvaljka" id="visina">Upišite visinu valjka:</label>
+            <input type="number" id="h" name="hvaljka">
+        </div>
+    </form>
+
+    <h2>REZULTAT</h2>
+
+    <div id="div3">
+        <label for="zvaljka" id="zapremina">Zapremina valjka je:</label>
+        <output form="form" name="zvaljka"></output>
+    </div>
+</body>

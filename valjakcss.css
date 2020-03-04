@@ -90,7 +90,7 @@ div {
  } 
 
  #div3::after {
-    content: "kubnih centimerata";
+    content: "kubnih centimetara";
     font-size: 5vh;
     font-weight: bold;
     font-family: cursive;
